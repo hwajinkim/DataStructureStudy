@@ -3,6 +3,7 @@ package Tree;
 import java.util.HashMap;
 import java.util.LinkedList;
 
+//Graph에 명시된 관계에 따라 데이터 뽑기
 class Project{
     private String name; //이름
     private LinkedList<Project> dependencies;//선행되어야 할 프로젝트 리스트 선언
